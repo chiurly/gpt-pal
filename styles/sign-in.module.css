@@ -1,0 +1,19 @@
+.section {
+	align-items: center;
+	padding: 64px;
+	width: 25%;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	width: stretch;
+}
+
+.input-parent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+}

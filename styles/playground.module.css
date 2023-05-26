@@ -1,0 +1,53 @@
+.promt-completion {
+	display: flex;
+	gap: 16px;
+	width: stretch;
+	height: 384px;
+}
+
+.model-parent {
+	width: inherit;
+}
+
+.textarea-parent {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	width: stretch;
+}
+
+.textarea {
+	height: stretch;
+	resize: none;
+}
+
+.textarea:disabled {
+	color: var(--color-slate-400);
+	background-color: var(--color-slate-800);
+}
+
+.flex-row-start {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	gap: 16px;
+	width: stretch;
+}
+
+.flex-row-end {
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	width: stretch;
+}
+
+.flex-row-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.subtle-input {
+	width: 64px;
+	height: auto;
+	text-align: right;
+}
